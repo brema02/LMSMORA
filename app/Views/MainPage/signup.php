@@ -111,8 +111,8 @@
                         <div class="row g-3">
                         <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="full_name" name="full_name" placeholder="FullName">
-                                    <label for="fullname">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="full_name" name="full_name" placeholder="Full Name">
+                                    <label for="full_name">Nama Lengkap</label>
                                 </div>
                         </div>
                             <div class="col-12">

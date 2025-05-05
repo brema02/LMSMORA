@@ -10,17 +10,23 @@ class Home extends BaseController
     {
         $session= session();
         $data['isLoggedIn'] = $session->get('login') === true;
-        $session->setFlashdata('pesan', 
-                                '<div class="alert alert-success alert-dismissible">
-                                 <h5><i class="icon fas fa-check"></i> Selamat Datang, $user </h5></div>');
+
+        if ($data['isLoggedIn']) {
+            $user = $session->get('full_name'); // Assuming you have stored the user's full name in the session
+            $session->setFlashdata('pesan', 
+                '<div class="alert alert-success alert-dismissible">
+                    <h5><i class="icon fas fa-check"></i> Selamat Datang, ' . $user . ' </h5>
+                </div>'
+            );
+        }
         return view('/MainPage/index');
     }
 
     public function logout() {
-        $session = session();
-        $this->$session->sess_destroy();
-        redirect('login'); // Redirect to login page after logout
-    }
+            $session = session();
+            $session->destroy(); // Correctly destroy the session
+            return redirect()->to(site_url('login')); // Redirect to the login page after logout
+        }
 
     public function ceklogin()
     {
@@ -43,7 +49,6 @@ class Home extends BaseController
         } else {
             $session->setFlashdata('pesan', 
                                 '<div class="alert alert-danger alert-dismissible">
-                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                                  <h5><i class="icon fas fa-times"></i> Username/Password Salah</h5></div>');
          return redirect()->to(site_url('login'));
         }
@@ -77,7 +82,7 @@ class Home extends BaseController
         ];
         if ($userModel->insert($data)) {
             session()->setFlashdata('success', 'User berhasil ditambahkan.');
-            return redirect()->to(base_url());
+            return redirect()->to(site_url('login'));
         } else {
             session()->setFlashdata('error', 'Gagal menambahkan user.');
             return redirect()->back()->withInput();

@@ -77,7 +77,6 @@
         </div>
     </nav>
     <!-- Navbar End -->
-
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
@@ -105,6 +104,13 @@
                         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                             <h1 class="mb-5 bg-white text-center px-3">Login</h1>
                         </div>
+                        <?php if (session()->getFlashdata('success')): ?>
+                            <?= session()->getFlashdata('success') ?>
+                        <?php else: ?>
+                            <?php if (session()->getFlashdata('error')): ?>
+                                <?= session()->getFlashdata('error') ?>
+                            <?php endif; ?>
+                        <?php endif; ?>
                         <?php if ((session()->getFlashdata('pesan')!== NULL)){ echo session()->getFlashdata('pesan'); }?>
                         <div class="row g-3">
                             <div class="col-12">

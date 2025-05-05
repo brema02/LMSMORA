@@ -68,7 +68,9 @@
                     <a href="#" class="nav-item nav-link" data-bs-toggle="dropdown"><i class="fa fa-user"></i></a>
                     <div class="dropdown-menu fade-down m-0">
                         <a href="<?= site_url('dashboard') ?>" class="dropdown-item">Dashboard</a>
-                        <a href="<?= site_url('/logout') ?>" class="dropdown-item">Logout</a>
+                        <form action="<?= site_url('/logout') ?>" method="post" style="display: inline;">
+                        <button type="submit" class="dropdown-item">Logout</button>
+                        </form>
                     </div>
                 <?php } else { ?>
                     <a href="<?= site_url('login') ?>" class="nav-item nav-link"><i class="fa fa-user"></i></a>
@@ -107,7 +109,7 @@
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-4">
-    <?php if ((session()->getFlashdata('pesan')!== NULL)){ echo session()->getFlashdata('pesan'); }?>
+    <?php if (session()->getFlashdata('pesan')): ?> <?= session()->getFlashdata('pesan') ?><?php endif; ?>
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
                 <img class="img-fluid" src="brem/img/carousel-1.jpg" alt="">
