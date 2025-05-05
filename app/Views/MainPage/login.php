@@ -103,14 +103,18 @@
                     <form class="shadow p-4" style="max-width: 550px;" method="post" action="<?= site_url('ceklogin') ?>">
                         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                             <h1 class="mb-5 bg-white text-center px-3">Login</h1>
+                            
                         </div>
                         <?php if (session()->getFlashdata('success')): ?>
-                            <?= session()->getFlashdata('success') ?>
-                        <?php else: ?>
-                            <?php if (session()->getFlashdata('error')): ?>
+                            <div class="alert alert-success alert-dismissible">
+                                <?= session()->getFlashdata('success') ?>
+                            </div>
+                        <?php elseif (session()->getFlashdata('error')): ?>
+                            <div class="alert alert-danger alert-dismissible">
                                 <?= session()->getFlashdata('error') ?>
-                            <?php endif; ?>
+                            </div>
                         <?php endif; ?>
+
                         <?php if ((session()->getFlashdata('pesan')!== NULL)){ echo session()->getFlashdata('pesan'); }?>
                         <div class="row g-3">
                             <div class="col-12">
