@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>BMC : Instructor</title>
+    <title>BMC : Instruktur</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -39,7 +39,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Memuat...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -57,21 +57,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
-                <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
-                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Courses</a>
+                <a href="<?= base_url() ?>" class="nav-item nav-link active">Beranda</a>
+                <a href="<?= site_url('about') ?>" class="nav-item nav-link">Tentang</a>
+                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
                 <?php if(true) {  //PHP BELUM BERFUNGSI KARNA LOGIN PHP BELUM JADI ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
+                        <a href="<?= site_url('team') ?>" class="dropdown-item">Tim Kami</a>
                         <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
-                <a href="<?= site_url('login') ?>" class="nav-item nav-link">Login</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
+                <a href="<?= site_url('login') ?>" class="nav-item nav-link">Masuk</a>
             </div>
         </div>
     </nav>
@@ -83,11 +83,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Become An Instructor</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Jadilah Seorang Instruktur</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Become An Instructor</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Jadilah Seorang Instruktur</li>
                         </ol>
                     </nav>
                 </div>
@@ -100,12 +100,12 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5 bg-white text-center px-3" style="color: #fb873f;">Apply As Instructor</h1>
+                <h1 class="mb-5 bg-white text-center px-3" style="color: #fb873f;">Daftar Sebagai Instruktur</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5>Welcome to SecretCoder - Where Knowledge Meets Innovation</h5>
-                    <p class="mb-4">Are you passionate about sharing your expertise and making a real impact on learners worldwide? If so, we invite you to become an instructor on our dynamic e-learning platform! Join a community of educators dedicated to fostering a love for learning and empowering individuals to achieve their goals.</p>
+                    <h5>Selamat datang di SecretCoder - Tempat Pengetahuan Bertemu Inovasi</h5>
+                    <p class="mb-4">Apakah Anda bersemangat membagikan keahlian Anda dan memberikan dampak nyata bagi para pelajar di seluruh dunia? Jika iya, kami mengundang Anda untuk menjadi instruktur di platform pembelajaran online kami yang dinamis! Bergabunglah dengan komunitas pengajar yang berdedikasi untuk menumbuhkan kecintaan terhadap belajar dan memberdayakan individu mencapai tujuan mereka.</p>
                 </div>
             </div>
         </div>
@@ -118,15 +118,15 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="#">Privacy Policy</a></p>
-                    <p><a class="text-light" href="#">Terms & Condition</a></p>
-                    <p><a class="text-light" href="#">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Kontak Kami</a></p>
+                    <p><a class="text-light" href="#">Kebijakan Privasi</a></p>
+                    <p><a class="text-light" href="#">Syarat & Ketentuan</a></p>
+                    <p><a class="text-light" href="#">FAQ & Bantuan</a></p>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>

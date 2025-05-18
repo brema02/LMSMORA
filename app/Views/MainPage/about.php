@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="utf-8">
-    <title>BMC : About Us</title>
+    <title>BMC : Tentang Kami</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -38,7 +38,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Memuat...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -55,20 +55,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
-                <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
-                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Courses</a>
-                <?php if(true) {  //PHP BELUM BERFUNGSI KARNA LOGIN PHP BELUM JADI ?>
+                <a href="<?= base_url() ?>" class="nav-item nav-link active">Beranda</a>
+                <a href="<?= site_url('about') ?>" class="nav-item nav-link">Tentang</a>
+                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
+                <?php if(true) { ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
-                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
+                        <a href="<?= site_url('team') ?>" class="dropdown-item">Tim Kami</a>
+                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimoni</a>
                     </div>
                 </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
                 <a href="<?= site_url('login') ?>" class="nav-item nav-link"><i class="fa fa-user"></i></a>
                 <a href="#" class="nav-item nav-link">
                     <div id="google_translate_element"></div>
@@ -83,11 +83,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Tentang Kami</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Tentang</li>
                         </ol>
                     </nav>
                 </div>
@@ -96,51 +96,50 @@
     </div>
     <!-- Header End -->
 
-<!-- About Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="row g-5">
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
 
-            <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
-                <h6 class="section-title bg-white text-start pe-3">About Us</h6>
-                <h1 class="mb-4" style="color: #fb873f;">Visi dan Misi Bimbel Mora College</h1>
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start pe-3">Tentang Kami</h6>
+                    <h1 class="mb-4" style="color: #fb873f;">Visi dan Misi Bimbel Mora College</h1>
 
-                <h3 class="mb-3">Visi</h3>
-                <p class="mb-4">
-                    Menjadi lembaga bimbingan belajar terdepan yang mencetak generasi unggul, berprestasi, dan berkarakter
-                    melalui pembelajaran yang inovatif, inspiratif, dan berdaya saing global.
-                </p>
+                    <h3 class="mb-3">Visi</h3>
+                    <p class="mb-4">
+                        Menjadi lembaga bimbingan belajar terdepan yang mencetak generasi unggul, berprestasi, dan berkarakter
+                        melalui pembelajaran yang inovatif, inspiratif, dan berdaya saing global.
+                    </p>
 
-                <h3 class="mb-3">Misi</h3>
-                <ul class="mb-4">
-                    <li class="mb-2">Menyediakan layanan pendidikan berkualitas dengan pendekatan personal dan metode belajar yang efektif, menyenangkan, serta adaptif terhadap kebutuhan siswa.</li>
-                    <li class="mb-2">Mengembangkan potensi akademik dan karakter siswa melalui program pembelajaran terpadu yang mencakup aspek kognitif, afektif, dan psikomotorik.</li>
-                    <li class="mb-2">Mengintegrasikan teknologi dan inovasi pembelajaran dalam setiap kegiatan bimbingan untuk meningkatkan daya serap dan minat belajar siswa.</li>
-                    <li class="mb-2">Menciptakan lingkungan belajar yang suportif, profesional, dan inspiratif guna membangun kepercayaan diri dan semangat berprestasi.</li>
-                    <li class="mb-2">Menyiapkan siswa untuk menghadapi tantangan pendidikan masa kini dan masa depan, termasuk ujian masuk sekolah/kampus unggulan serta pengembangan keterampilan abad 21.</li>
-                </ul>
+                    <h3 class="mb-3">Misi</h3>
+                    <ul class="mb-4">
+                        <li class="mb-2">Menyediakan layanan pendidikan berkualitas dengan pendekatan personal dan metode belajar yang efektif, menyenangkan, serta adaptif terhadap kebutuhan siswa.</li>
+                        <li class="mb-2">Mengembangkan potensi akademik dan karakter siswa melalui program pembelajaran terpadu yang mencakup aspek kognitif, afektif, dan psikomotorik.</li>
+                        <li class="mb-2">Mengintegrasikan teknologi dan inovasi pembelajaran dalam setiap kegiatan bimbingan untuk meningkatkan daya serap dan minat belajar siswa.</li>
+                        <li class="mb-2">Menciptakan lingkungan belajar yang suportif, profesional, dan inspiratif guna membangun kepercayaan diri dan semangat berprestasi.</li>
+                        <li class="mb-2">Menyiapkan siswa untuk menghadapi tantangan pendidikan masa kini dan masa depan, termasuk ujian masuk sekolah/kampus unggulan serta pengembangan keterampilan abad 21.</li>
+                    </ul>
+                </div>
+
             </div>
-
         </div>
     </div>
-</div>
-<!-- About End -->
-
+    <!-- About End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="#">Privacy Policy</a></p>
-                    <p><a class="text-light" href="#">Terms & Condition</a></p>
-                    <p><a class="text-light" href="#">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Hubungi Kami</a></p>
+                    <p><a class="text-light" href="#">Kebijakan Privasi</a></p>
+                    <p><a class="text-light" href="#">Syarat & Ketentuan</a></p>
+                    <p><a class="text-light" href="#">FAQ & Bantuan</a></p>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>
@@ -156,10 +155,8 @@
     </div>
     <!-- Footer End -->
 
-
-    <!-- Back to Top -->
+    <!-- Kembali ke Atas -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

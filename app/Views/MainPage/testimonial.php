@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="utf-8">
-    <title>BMC : Testimonial</title>
+    <title>BMC : Testimoni</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -31,8 +31,6 @@
 
     <!-- Template Stylesheet -->
     <link href="<?= base_url('brem/css/style.css') ?>" rel="stylesheet">
-
-
 </head>
 
 <body>
@@ -40,11 +38,10 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Memuat...</span>
         </div>
     </div>
     <!-- Spinner End -->
-
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
@@ -60,20 +57,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
-                <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
-                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Courses</a>
-                <?php if(true) {  //PHP BELUM BERFUNGSI KARNA LOGIN PHP BELUM JADI ?>
+                <a href="<?= base_url() ?>" class="nav-item nav-link active">Beranda</a>
+                <a href="<?= site_url('about') ?>" class="nav-item nav-link">Tentang</a>
+                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
+                <?php if(true) { ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
-                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
+                        <a href="<?= site_url('team') ?>" class="dropdown-item">Tim Kami</a>
+                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimoni</a>
                     </div>
                 </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
                 <a href="<?= site_url('login') ?>" class="nav-item nav-link"><i class="fa fa-user"></i></a>
                 <a href="#" class="nav-item nav-link">
                     <div id="google_translate_element"></div>
@@ -83,18 +80,16 @@
     </nav>
     <!-- Navbar End -->
 
-
-
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Student Reviews</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Ulasan Siswa</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Reviews</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Ulasan</li>
                         </ol>
                     </nav>
                 </div>
@@ -103,13 +98,12 @@
     </div>
     <!-- Header End -->
 
-
     <!-- Testimonial Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center">
-                <h1 class=" bg-white text-center px-3" style="color: #fb873f;">Success stories</h1>
-                <p class="mb-5">Can Secret Coder courses help your career? Our learners tell us how.</p>
+                <h1 class=" bg-white text-center px-3" style="color: #fb873f;">Kisah Sukses</h1>
+                <p class="mb-5">Apakah kursus BMC dapat membantu karirmu? Para peserta berbagi pengalaman mereka.</p>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
@@ -117,9 +111,7 @@
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Sarah K.</h5>
                     <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">I stumbled upon Secret Coder while searching for free courses. The quality
-                            surpassed my expectations! The content was rich, and the instructors were knowledgeable.
-                            I've already recommended it to my friends.</p>
+                        <p class="mb-0">Saya menemukan BMC saat mencari kursus gratis. Kualitasnya melebihi harapan! Kontennya lengkap dan pengajarnya ahli. Saya sudah merekomendasikannya ke teman-teman.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
@@ -127,9 +119,7 @@
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">John M.</h5>
                     <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">As a working professional, finding free courses that match my schedule was a
-                            game-changer. The courses are engaging, and the community aspect adds immense value. Highly
-                            recommended!</p>
+                        <p class="mb-0">Sebagai pekerja, menemukan kursus gratis yang fleksibel adalah solusi. Kursusnya menarik dan komunitasnya sangat membantu. Sangat direkomendasikan!</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
@@ -137,9 +127,7 @@
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">David P.</h5>
                     <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">I've taken multiple courses here, and each one has been fantastic. The
-                            platform's design makes learning enjoyable, and the knowledge gained is invaluable. It's
-                            hard to believe these courses are free!</p>
+                        <p class="mb-0">Saya telah mengikuti beberapa kursus di sini dan semuanya luar biasa. Desain platform ini membuat belajar jadi menyenangkan, dan ilmunya sangat berharga.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
@@ -147,9 +135,7 @@
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Lisa S.</h5>
                     <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">I'm amazed at the quality of the free courses available. The instructors are
-                            experts in their fields, and the interactive lessons make learning a breeze. Thank you for
-                            this opportunity!</p>
+                        <p class="mb-0">Saya kagum dengan kualitas kursus gratis ini. Instruktur sangat kompeten dan pelajarannya interaktif. Terima kasih atas kesempatan ini!</p>
                     </div>
                 </div>
             </div>
@@ -157,21 +143,20 @@
     </div>
     <!-- Testimonial End -->
 
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="#">Privacy Policy</a></p>
-                    <p><a class="text-light" href="#">Terms & Condition</a></p>
-                    <p><a class="text-light" href="#">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Hubungi Kami</a></p>
+                    <p><a class="text-light" href="#">Kebijakan Privasi</a></p>
+                    <p><a class="text-light" href="#">Syarat & Ketentuan</a></p>
+                    <p><a class="text-light" href="#">FAQ & Bantuan</a></p>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> 0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i> kursuonline.moracollege@gmail.com</p>
@@ -185,7 +170,6 @@
         </div>
     </div>
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>

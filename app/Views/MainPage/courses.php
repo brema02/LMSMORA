@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>BMC : Courses</title>
+    <title>BMC : Kursus</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -39,7 +39,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Memuat...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -56,20 +56,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
-                <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
-                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Courses</a>
+                <a href="<?= base_url() ?>" class="nav-item nav-link active">Beranda</a>
+                <a href="<?= site_url('about') ?>" class="nav-item nav-link">Tentang</a>
+                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
                 <?php if(true) {  //PHP BELUM BERFUNGSI KARNA LOGIN PHP BELUM JADI ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
-                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
+                        <a href="<?= site_url('team') ?>" class="dropdown-item">Tim Kami</a>
+                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimoni</a>
                     </div>
                 </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
                 <a href="<?= site_url('login') ?>" class="nav-item nav-link"><i class="fa fa-user"></i></a>
                 <a href="#" class="nav-item nav-link">
                     <div id="google_translate_element"></div>
@@ -84,11 +84,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Courses</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Kursus</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Courses</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Kursus</li>
                         </ol>
                     </nav>
                 </div>
@@ -101,8 +101,8 @@
     <div class="container-xxl py-5 category">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center px-3">Categories</h6>
-                <h1 class="mb-5" style="color: #fb873f;">Popular Topics to Explore</h1>
+                <h6 class="section-title bg-white text-center px-3">Kategori</h6>
+                <h1 class="mb-5" style="color: #fb873f;">Topik Populer untuk Dijelajahi</h1>
             </div>
             <div class="row g-2 m-2">
                 <div class="col-lg-3 col-md-6 text-center">
@@ -168,8 +168,8 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center px-3">Popular Courses</h6>
-                <h1 class="mb-5" style="color: #fb873f;">Explore new and trending free online courses</h1>
+                <h6 class="section-title bg-white text-center px-3">Kursus Populer</h6>
+                <h1 class="mb-5" style="color: #fb873f;">Jelajahi kursus online gratis yang baru dan sedang trend</h1>
             </div>
             <div class="row g-4 py-2">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -177,29 +177,29 @@
                         <div class="position-relative overflow-hidden text-light image">
                             <img class="img-fluid" src="<?= base_url('brem/img/course-1.jpg') ?>" alt="">
                             <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+                                class="px-2 py-1 fw-bold text-uppercase">Gratis</div>
                         </div>
                         <div class="p-2 pb-0">
-                            <h5 class="mb-1"><a href="#" class="text-dark">HTML Course for Beginners</a></h5>
+                            <h5 class="mb-1"><a href="#" class="text-dark">Kursus HTML untuk Pemula</a></h5>
                         </div>
                         <div class="d-flex">
                             <small class="flex-fill text-center py-1 px-2">
                                 <i class="fa fa-star text-warning me-2"></i>4.55
                             </small>
                             <small class="flex-fill text-center py-1 px-2">
-                                <i class="fa fa-user-graduate me-2"></i>5.8L+ Learners
+                                <i class="fa fa-user-graduate me-2"></i>Pembelajar 5.8L+
                             </small>
                             <small class="flex-fill text-center py-1 px-2">
-                                <i class="fa fa-user me-2"></i>Beginner
+                                <i class="fa fa-user me-2"></i>Pemula
                             </small>
                         </div>
                         <div class="d-flex">
                             <small class="flex-fill text-left p-2 px-2">
-                                <i class="fa fa-clock me-2"></i>2.0 Hrs
+                                <i class="fa fa-clock me-2"></i>2 jam
                             </small>
                             <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
                             <small class="text-primary py-1 px-2 fw-bold fs-6" style="float:right;">
-                                <a href="#">Enroll Now</a>
+                                <a href="#">Daftar Sekarang</a>
                                 <i class="fa fa-chevron-right me-2 fs-10"></i>
                             </small>
                         </div>
@@ -216,15 +216,15 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="#">Privacy Policy</a></p>
-                    <p><a class="text-light" href="#">Terms & Condition</a></p>
-                    <p><a class="text-light" href="#">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Hubungi Kami</a></p>
+                    <p><a class="text-light" href="#">Kebijakan Privasi</a></p>
+                    <p><a class="text-light" href="#">Syarat & Ketentuan</a></p>
+                    <p><a class="text-light" href="#">FAQ & Bantuan</a></p>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="utf-8">
-    <title>BMC : Contact</title>
+    <title>BMC : Kontak</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -38,7 +38,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Memuat...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -46,29 +46,27 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="<?= base_url() ?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="<?= base_url('brem/img/icon bmc.png') ?>" alt="" height="50px"><span
-                    style="color: #fb873f;"></span></p>
+            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="<?= base_url('brem/img/icon bmc.png') ?>" alt="" height="50px"></p>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            style="border: none;">
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style="border: none;">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="<?= base_url() ?>" class="nav-item nav-link active">Home</a>
-                <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
-                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Courses</a>
-                <?php if(true) {  //PHP BELUM BERFUNGSI KARNA LOGIN PHP BELUM JADI ?>
+                <a href="<?= base_url() ?>" class="nav-item nav-link active">Beranda</a>
+                <a href="<?= site_url('about') ?>" class="nav-item nav-link">Tentang</a>
+                <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
+                <?php if(true) { ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
-                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
+                        <a href="<?= site_url('team') ?>" class="dropdown-item">Tim Kami</a>
+                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimoni</a>
                     </div>
                 </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
                 <a href="<?= site_url('login') ?>" class="nav-item nav-link"><i class="fa fa-user"></i></a>
                 <a href="#" class="nav-item nav-link">
                     <div id="google_translate_element"></div>
@@ -83,11 +81,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Contact</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Kontak</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Kontak</li>
                         </ol>
                     </nav>
                 </div>
@@ -100,20 +98,20 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5 bg-white text-center px-3">Contact Us</h1>
+                <h1 class="mb-5 bg-white text-center px-3">Hubungi Kami</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5>Mora College Tutoring: A Sure Step Towards Success!</h5>
-                    <p class="mb-4">Mora College Tutoring has been proven as a leading tutoring institution that has successfully passed many students in various important selections, including CPNS and other academic exams. With years of experience, we are committed to providing the best guidance for every student who wants to achieve achievements and a bright future.</p>
+                    <h5>Bimbel Mora College: Langkah Pasti Menuju Sukses!</h5>
+                    <p class="mb-4">Bimbel Mora College telah terbukti menjadi lembaga bimbingan terdepan yang telah berhasil meluluskan banyak siswa dalam berbagai seleksi penting, termasuk CPNS dan ujian akademik lainnya. Dengan pengalaman bertahun-tahun, kami berkomitmen memberikan bimbingan terbaik bagi setiap siswa yang ingin meraih prestasi dan masa depan yang cerah.</p>
                     <div class="d-flex align-items-center mb-3">
                         <div class="d-flex align-items-center justify-content-center flex-shrink-0"
                             style="width: 50px; height: 50px; background-color: #fb873f;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Office</h5>
-                            <p class="mb-0"> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
+                            <h5>Kantor</h5>
+                            <p class="mb-0">Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
@@ -122,7 +120,7 @@
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Phone Number</h5>
+                            <h5>No. Telepon</h5>
                             <p class="mb-0">0821-6329-9216</p>
                         </div>
                     </div>
@@ -139,10 +137,10 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <h5>Location Map</h5>
+                    <h5>Peta Lokasi</h5>
                     <div class="iframe-container">
                         <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510023.09406838304!2d98.49120027343753!3d2.943210299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031851366fadd25%3A0xcf39e36b7a354a87!2sMora%20College%20Bimbel%20CPNS%2C%20PPPK%2C%20SKB%2C%20PTN%2C%20SEKOLAH%20KEDINASAN%2C%20SMP%2C%20SD%2C%20TPA%2C%20TOEFL%2C%20KOMPUTER%20OFFICE%2C%20PSIKOTEST!5e0!3m2!1sid!2sid!4v1741419671191!5m2!1sid!2sid" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.555403264567!2d99.06540757394384!3d2.9432156543861727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031851366fadd25%3A0xcf39e36b7a354a87!2sMora%20College%20Bimbel%20CPNS%2C%20PPPK%2C%20SKB%2C%20PTN%2C%20SEKOLAH%20KEDINASAN%2C%20SMP%2C%20SD%2C%20TPA%2C%20TOEFL%2C%20KOMPUTER%20OFFICE%2C%20PSIKOTEST!5e0!3m2!1sid!2sid!4v1747578670037!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
                             width="100%" 
                             height="400" 
                             style="border:0;" 
@@ -162,15 +160,15 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="#">Privacy Policy</a></p>
-                    <p><a class="text-light" href="#">Terms & Condition</a></p>
-                    <p><a class="text-light" href="#">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Hubungi Kami</a></p>
+                    <p><a class="text-light" href="#">Kebijakan Privasi</a></p>
+                    <p><a class="text-light" href="#">Syarat & Ketentuan</a></p>
+                    <p><a class="text-light" href="#">FAQ & Bantuan</a></p>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>
@@ -186,7 +184,7 @@
     </div>
     <!-- Footer End -->
 
-    <!-- Back to Top -->
+    <!-- Tombol Kembali ke Atas -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
