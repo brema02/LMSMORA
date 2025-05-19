@@ -70,7 +70,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Memuat...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -87,18 +87,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                <a href="about.html" class="nav-item nav-link">Tentang</a>
+                <a href="courses.html" class="nav-item nav-link">Kursus</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="team.html" class="dropdown-item">Tim Kami</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimoni</a>
 
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact.html" class="nav-item nav-link">Kontak</a>
                 <a href="login.html" class="nav-item nav-link"><i class="fa fa-user"></i></a>
                 <a href="#" class="nav-item nav-link">
 
@@ -117,12 +117,12 @@
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
-                        <h1 class="display-3 text-white animated slideInDown">Course</h1>
+                        <h1 class="display-3 text-white animated slideInDown">Kursus</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                                <li class="breadcrumb-item"><a class="text-white" href="courses.html">Course</a></li>
-                                <li class="breadcrumb-item text-white active" aria-current="page">HTML Course for Beginners</li>
+                                <li class="breadcrumb-item"><a class="text-white" href="index.html">Beranda</a></li>
+                                <li class="breadcrumb-item"><a class="text-white" href="courses.html">Kursus</a></li>
+                                <li class="breadcrumb-item text-white active" aria-current="page">Kursus HTML untuk Pemula</li>
                             </ol>
                         </nav>
                     </div>
@@ -142,24 +142,23 @@
                     <div class="row g-5 justify-content-center">
 
                         <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
-                            <h2>HTML Course for Beginners</h2>
-                            <p>Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.
+                            <h2>Kursus HTML untuk Pemula</h2>
+                            <p>Mulailah dari awal dengan mempelajari dasar-dasar HTML — fondasi penting untuk membangun dan mengedit halaman web.
 
                             </p>
                             <div class="d-flex">
                                 <small><i class="fa fa-star text-warning"></i>
                                     4.6</small>
-                                <small style="margin-left: 15px;"><i class="fa fa-user-graduate"></i> 5.8L+
-                                    Learners
+                                <small style="margin-left: 15px;"><i class="fa fa-user-graduate"></i>Pembelajar 5.8L+
                                 </small>
-                                <small style="margin-left: 15px;"><i class="fa fa-user"></i>Beginner</small>
-                                <small style="margin-left: 15px;"><i class="fa fa-clock me-2"></i> 2.0 Hrs</small>
+                                <small style="margin-left: 15px;"><i class="fa fa-user"></i>Pemula</small>
+                                <small style="margin-left: 15px;"><i class="fa fa-clock me-2"></i> 2 jam</small>
 
                             </div>
                             <div class="image-div text-left mt-3">
                                 <img src="img/testimonial-2.jpg" alt=""
                                     style="height: 40px; width: 40px; border-radius: 50%;">
-                                <span style="margin-left: 10px;"><b>Instructor Name</b> - Zoe Bachman</span>
+                                <span style="margin-left: 10px;"><b>Nama Instruktur</b> - Zoe Bachman</span>
                             </div>
                         </div>
                     </div>
@@ -174,23 +173,21 @@
                     <div class="tab-content mt-4">
 
                         <div class="tab-pane container active" id="Overview">
-                            <h2>About this Course</h2>
-                            <p>Fun fact: all websites use HTML — even this one. It's a fundamental part of every web developer's toolkit. HTML provides the content that gives web pages structure, by using elements and tags, you can add text, images, videos, forms, and more. Learning HTML basics is an important first step in your web development journey and an essential skill for front- and back-end developers.</p>
-
-
+                            <h2>Tentang Kursus ini</h2>
+                            <p>Fakta menarik: semua situs web menggunakan HTML — termasuk yang ini. HTML merupakan bagian mendasar dari perangkat setiap pengembang web. HTML menyediakan konten yang memberikan struktur pada halaman web. Dengan menggunakan elemen dan tag, Anda dapat menambahkan teks, gambar, video, formulir, dan banyak lagi. Mempelajari dasar-dasar HTML merupakan langkah awal yang penting dalam perjalanan pengembangan web Anda dan keterampilan penting bagi pengembang front-end dan back-end.</p>
                            
                             <h2 class="mt-4">
-                                Skills you'll gain
+                                Keterampilan yang akan Anda peroleh
                             </h2>
                             
                             <span class="badge rounded-pill text-white bg-primary px-4 py-2 m-2"
-                                style="font-size: 15px; font-weight: normal;">Structure pages with HTML</span>
+                                style="font-size: 15px; font-weight: normal;">Struktur halaman dengan HTML</span>
 
                                 <span class="badge rounded-pill text-white bg-primary px-4 py-2 m-2"
-                                style="font-size: 15px; font-weight: normal;">Present data with tables</span>
+                                style="font-size: 15px; font-weight: normal;">Sajikan data dengan tabel</span>
 
                                 <span class="badge rounded-pill text-white bg-primary px-4 py-2 m-2"
-                                style="font-size: 15px; font-weight: normal;">Write cleaner HTML</span>
+                                style="font-size: 15px; font-weight: normal;">Tulis HTML yang lebih bersih</span>
                            
 
                         </div>
@@ -204,51 +201,51 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                        Elements and Structure
+                                        Elemen dan Struktur
                                     
                                     </button>
                                   </h2>
                                   <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body"><ul>
-                                        <li><i class="fa fa-video text-danger"></i> Introduction to HTML</li>
-                                        <li><i class="fa fa-video text-danger"></i> HTMl Document Standards</li>
+                                        <li><i class="fa fa-video text-danger"></i> Pengantar HTML</li>
+                                        <li><i class="fa fa-video text-danger"></i> Standar Dokumen HTML</li>
                                     </ul></div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
                                   <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                       Tables
+                                       Tabel
                                     </button>
                                   </h2>
                                   <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body"><ul>
-                                        <li><i class="fa fa-video text-danger"></i> HTML Tables</li>
+                                        <li><i class="fa fa-video text-danger"></i>Tabel HTML </li>
                                     </ul></div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
                                   <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                       Forms
+                                       Formulir
                                     </button>
                                   </h2>
                                   <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body"><ul>
-                                        <li><i class="fa fa-video text-danger"></i> HTML Forms</li>
-                                        <li><i class="fa fa-video text-danger"></i> Form Validation</li>
+                                        <li><i class="fa fa-video text-danger"></i> Formulir HTML</li>
+                                        <li><i class="fa fa-video text-danger"></i> Validasi Formulir</li>
                                     </ul></div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                         Semantic HTML
+                                         HTML semantik
                                       </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                       <div class="accordion-body"><ul>
-                                          <li><i class="fa fa-video text-danger"></i> Semantic HTML</li>
+                                          <li><i class="fa fa-video text-danger"></i> HTML semantik</li>
                                       </ul></div>
                                     </div>
                                   </div>
@@ -259,7 +256,7 @@
                         </div>
 
                         <div class="container" id="Instructor">
-                            <h2 class="mt-4">About the Instructor</h2>
+                            <h2 class="mt-4">Tentang Instruktur</h2>
                             <div class="image-div text-left mt-4">
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6">
@@ -272,31 +269,31 @@
                                         <div class="row">
                                             <div class="col-6">
                                                 <p><i class="fa fa-star"></i>
-                                                    4.87 Instructor rating</p>
+                                                    Peringkat instruktur 4.87</p>
                                             </div>
                                             <div class="col-6">
                                                 <p> <i class="fa fa-check
                                                     
                                                     
                                                      "></i>
-                                                    1,533 reviews</p>
+                                                    1.533 ulasan</p>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
                                                 <p><i class="fa fa-user"></i>
-                                                    20 Students</p>
+                                                    20 Murid</p>
                                             </div>
                                             <div class="col-6">
                                                 <p><i class="fa fa-video"></i>
-                                                    29 courses</p>
+                                                    29 Kursus</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="des mt-4 mb-5">
-                                    Curriculum Director at Codecademy and creative technologist. She has designed a range of Codecademy courses, including Learn HTML, Learn C#, Learn Alexa, and the beginner-friendly Learn How to Code.
+                                    Direktur Kurikulum di Codecademy dan teknolog kreatif. Ia telah merancang berbagai kursus Codecademy, termasuk Learn HTML, Learn C#, Learn Alexa, dan Learn How to Code yang mudah dipahami pemula.
                                 </div>
                             </div>
                         </div>
@@ -312,7 +309,7 @@
                     <img class="img-fluid mt-2" src="img/course-1.jpg" alt="" height="200px" width="500px">
                 </div>
                 
-                <h4 class="mt-2 p-2">Free <small></small></h4>
+                <h4 class="mt-2 p-2">Gratis <small></small></h4>
                 
                 <h4 class="mt-2 p-2">$
                     <small><del>20</del></small>
@@ -322,42 +319,42 @@
                 <div class="buttons">
                     
                     <a href="#"
-                        class="text-decoration-none text-white btn p-3 w-100 mb-2">ENROLL NOW</a>
+                        class="text-decoration-none text-white btn p-3 w-100 mb-2">Daftar Sekarang</a>
                     
                     
                    
                 </div>
                 <div class="list mt-2">
                     <div class="list1 d-flex justify-content-between pt-2 border-bottom">
-                        <p><i class="fa fa-clock"></i> Duration</p>
-                        <p>2.0 Hrs</p>
+                        <p><i class="fa fa-clock"></i> Durasi</p>
+                        <p>2 jam</p>
                     </div>
                     <div class="list2 d-flex justify-content-between pt-2 border-bottom">
-                        <p><i class="fa fa-book"></i> Lectures</p>
+                        <p><i class="fa fa-book"></i> Kuliah</p>
                         <p>4</p>
                     </div>
                     <div class="list3 d-flex justify-content-between pt-2 border-bottom">
-                        <p><i class="fa fa-bolt"></i> Enrolled</p>
-                        <p>240 students</p>
+                        <p><i class="fa fa-bolt"></i> Terdaftar</p>
+                        <p>240 Murid</p>
                     </div>
                     <div class="list4 d-flex justify-content-between pt-2 border-bottom">
-                        <p><i class="fa fa-google-translate"></i> Language</p>
-                        <p>English</p>
+                        <p><i class="fa fa-google-translate"></i> Bahasa</p>
+                        <p>Inggris</p>
                     </div>
                     <div class="list5 d-flex justify-content-between pt-2 border-bottom">
-                        <p><i class="fa fa-list"></i> Skill Level</p>
-                        <p>Beginner</p>
+                        <p><i class="fa fa-list"></i> Tingkat Keterampilan</p>
+                        <p>Pemula</p>
                     </div>
                     <div class="list6 d-flex justify-content-between pt-2 border-bottom">
-                        <p><i class="fa fa-list"></i> Deadline</p>
-                        <p>Life Time</p>
+                        <p><i class="fa fa-list"></i> Tenggat waktu</p>
+                        <p>Waktu Hidup</p>
                     </div>
                     <div class="list7 d-flex justify-content-between pt-2 border-bottom">
-                        <p><i class="fa fa-certificate"></i> Certificate</p>
-                        <p>Yes</p>
+                        <p><i class="fa fa-certificate"></i> Sertifikat</p>
+                        <p>Ya</p>
                     </div>
                     <div class="button pt-4 text-center mb-4">
-                        <i class="fa fa-share"></i><a href=""> Share this Course</a>
+                        <i class="fa fa-share"></i><a href=""> Bagikan Kursus ini</a>
                     </div>
                 </div>
 
@@ -375,15 +372,15 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
-                <h4 class="text-white mb-3">Quick Link</h4>
-                <p><a class="text-light" href="about.html">About Us</a></p>
-                <p><a class="text-light" href="contact.html">Contact Us</a></p>
-                <p><a class="text-light" href="">Privacy Policy</a></p>
-                <p><a class="text-light" href="">Terms & Condition</a></p>
-                <p><a class="text-light" href="">FAQs & Help</a></p>
+                <h4 class="text-white mb-3">Tautan Cepat</h4>
+                <p><a class="text-light" href="about.html">Tentang Kami</a></p>
+                <p><a class="text-light" href="contact.html">Kontak Kami</a></p>
+                <p><a class="text-light" href="">Kebijakan Privasi</a></p>
+                <p><a class="text-light" href="">Syarat & Ketentuan</a></p>
+                <p><a class="text-light" href="">FAQ & Bantuan</a></p>
             </div>
             <div class="col-lg-4 col-md-6">
-                <h4 class="text-white mb-3">Contact</h4>
+                <h4 class="text-white mb-3">Kontak</h4>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>
